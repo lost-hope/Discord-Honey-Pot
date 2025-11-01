@@ -1,0 +1,11 @@
+{
+  "name": "discord-honey-pot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lost-hope",
+  "license": "MIT",
+  "description": "A Discord bot that acts as a honeypot for capturing malicious users.",
+  "dependencies": {
+    "discord.js": "^14.19.3"
+  }
+}
