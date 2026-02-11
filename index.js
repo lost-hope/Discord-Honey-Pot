@@ -2,7 +2,6 @@
 const { Client, Events, GatewayIntentBits, Partials} = require('discord.js');
 const fs = require('fs');
 const { token,channelID,serverid } = require('./config.json');
-const list = require('./gifs.json');
 
 // Create a new client instance
 const client = new Client({
