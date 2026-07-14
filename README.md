@@ -25,8 +25,7 @@ This bot helps server administrators combat spam bots by:
   - Read Messages/View Channels
   - Read Message History
 - Bot intents enabled in Discord Developer Portal:
-  - Server Members Intent
-  - Message Content Intent
+  - No privileged intents are required for this bot
 
 ## Installation 🚀
 
@@ -83,7 +82,7 @@ Ready! Logged in as YourBotName#1234
 
 All ban actions are logged to `log.txt` in the root directory with the following information:
 - Banned user's tag
-- Message content that triggered the ban
+- Channel ID that triggered the ban
 - Server name
 
 ## Security Best Practices 🔒
@@ -106,7 +105,6 @@ All ban actions are logged to `log.txt` in the root directory with the following
 - Verify the bot's role hierarchy
 
 **Bot doesn't respond:**
-- Check that Message Content Intent is enabled in the Discord Developer Portal
 - Verify your token is correct in [config.json](config.json)
 
 ## License 📄
